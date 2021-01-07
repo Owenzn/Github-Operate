@@ -1,0 +1,23 @@
+Git目的：通过git管理github托管项目代码。
+
+一、下载安装： 
+    1）Git官网下载：https://git-scm.com/
+    2）一路傻瓜安装
+    3）检验是否安装成功（回到桌面，右击鼠标，查看是否有git图标
+    
+二、git工作流程
+    Git工作区：新建修改文件等动作。
+    Git仓库：最终确定的文件保存到仓库，成为一个新的版本，并且对他人可见。
+    暂存区：暂存已经修改的文件，最后统一提交到git仓库。
+    
+    命令行： git status      /       git add  xxx.cpp       /        git commit -m"提交描述"
+            查看文件所在区域         工作区文件添加到暂存区            暂存区文件提交到git仓库
+    2.1)git初始化及仓库创建和操作
+        2.1.1基本信息设置
+            1、设置用户名
+            git config --global user.name '用户名'
+            2、设置用户名邮箱
+            git config --global user.email '用户名'@'用户名.com'
+        2.1.2初始化一个新的git仓库
+           命令行 mkdir xx
+        2.1.3
