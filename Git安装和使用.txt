@@ -30,6 +30,9 @@ Git目的：通过git管理github托管项目代码。
         
     2.2）Git管理远程仓库
         1、git克隆远程仓库到本地仓库   git clone 远程仓库URL
-        
-        
-        
+        设置权限：
+            在本地仓库的.git文件夹下找到config文件------记事本打开，将url = https://github.com/Owenzn/hello-world.git 
+            修改成 url = https://Owenzn：秘密@github.com/Owenzn/hello-world.git
+            
+
+
