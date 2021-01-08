@@ -25,6 +25,11 @@ Git目的：通过git管理github托管项目代码。
               git init  (在文件夹内初始化Git{创建Git仓库});
         2.1.3向仓库添加、修改、删除文件（命令行下）
            1、添加  touch xx.cpp
-           2、修改仓库文件
+           2、修改仓库文件 vim xx.c
+           3、删除仓库文件 ①rm -rf xx.c(工作区文件)；②git rm xx.c(暂存区文件)；③git commit -m'提交描述'
+        
+    2.2）Git管理远程仓库
+        1、git克隆远程仓库到本地仓库   git clone 远程仓库URL
+        
         
         
